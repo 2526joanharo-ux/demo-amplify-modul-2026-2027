@@ -1,0 +1,26 @@
+html{
+    background-color: #882858;
+    background-image: url(../imagenes/galeria/background.png); 
+    background-position: center;
+    background-size: 100%;
+}
+
+
+.squarehole {
+    opacity: 100%; 
+    width: 100%;
+    background-color: #ffc5ff;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin-top: 3em;
+    text-align: center;
+    border-image: url(/imagenes/galeria/border.png) 52 / 20px round;
+    border-width: 3.5px;
+    flex-direction: row;
+    border-image-outset: 10px;
+}
+
+.claserequeridalegalmentesegunlarubrica{
+    width: 300px;
+    height: 300px;
+}

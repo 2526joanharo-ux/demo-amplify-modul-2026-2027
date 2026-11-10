@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/general.css">
+    <link rel="stylesheet" href="css/formulari.css">
+    <link rel="icon" type="img" href="imagenes/general/pizzafacelogo.png">
+    <title>Valorans</title>
+</head>
+
+<body>
+    <header class="applySticky">
+        <a href="index.html"><img src="imagenes/index/titulo.png" alt=""></a>
+        <nav id="topLine">
+            <div class="leftbordertext">
+                <a href="galeria.html" class="leftbordertext">
+                    <li class="leftborder fontpizzatower">Galeria</li>
+                </a>
+                <a href="nosaltres.html" class="leftbordertext">
+                    <li class="leftborder fontpizzatower">Nosaltres</li>
+                </a>
+                <a href="joc.html" class="leftbordertext">
+                    <li class="leftborder fontpizzatower">El joc</li>
+                </a>
+                <a href="que_en_penses.html" class="leftbordertext">
+                    <li class="leftborder fontpizzatower">Valorans</li>
+                </a>
+
+            </div>
+        </nav>
+    </header>
+    <form action="que_en_penses_enviat.html" class="margintop">
+        <fieldset class="formulari">
+            <legend><img src=imagenes/formulari/legend.png> </legend>
+            <div>
+                <label for="textc">Nom:</label>
+                <input type="text" id="textc" name="tetxc" required placeholder="Carlitos Garcia Pèrez Temorosa">
+
+            </div>
+            <div>
+                <label for="gmail" class="prueba">Gmail:</label>
+                <input type="email" id="gmail" name="gmail" placeholder="andres@gmail.com" required>
+            </div>
+            <div>
+                <label for="enum"> Nota: </label>
+                <input type="number" id="enum" name="enum" required placeholder="10">
+            </div>
+            <div>
+                <label for="textdes"> Menjar favorit:</label>
+                <select name="select" id="textdes">
+                    <option value="blanco" selected></option>
+                    <option value="Spaghetti">Spaghetti</option>
+                    <option value="Pizza">Pizza</option>
+                    <option value="Ravioli">Ravioli</option>
+                    <option value="Pesto">Pesto</option>
+                </select>
+            </div>
+            <label for="checkbox">Salsa favorita:</label>
+            <div class="block">
+                <input type="checkbox" id="Opcion1" name="Opcion1" checked>
+                <label for="checkbox">Salsa de tomaquet</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Opcion2" name="Opcion2">
+                <label for="checkbox">Salsa agria</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Opcion3" name="Opcion3">
+                <label for="checkbox">Mostaza dolça</label>
+            </div>
+            <div>
+                <label for="Radiob">Topping favorit:</label>
+            </div>
+            <div>
+                <label for="HTML">Pepperoni</label>
+                <input type="radio" name="llenguatge_prog" checked>
+            </div>
+            <div>
+                <label for="CSS">Formatge</label>
+                <input type="radio" name="llenguatge_prog">
+            </div>
+
+            <div>
+                <label for="Java">Pernil</label>
+                <input type="radio" name="llenguatge_prog" 
+                > <!--ts name is true-->
+
+            </div>
+            <label for="textarea" class="applymaxwidth">Opinió/Review:</label>
+            <div>
+            <textarea name="textarea" id="text" placeholder="Me encanta!" required></textarea>
+            </div>
+            <input type="submit" value="Enviar" id="Enviar" name="Enviar" class="textcenter">
+        </fieldset>
+    </form>
+    <footer class="footer">
+        <p>Pagina feta per:</p>
+        <table class="applymaxwidth">
+            <tr>
+                <td class="applyhalfwidth">
+                    <a href="curriculumjoan.html">
+                        <li class="curriculumlist" class="fontpizzatower">Joan Haro Martinez</li>
+                    </a>
+                </td>
+                <td>
+                    <a href="curriculumwindows.html">
+                        <li class="curriculumlist" class="fontpizzatower">Biel Carrau Sanchez Valdepenas</li>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+
+</html>

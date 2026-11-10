@@ -1,0 +1,36 @@
+html{
+    background-color: #5e26a7;
+    background-image: url(../imagenes/Joc/backgroundjoc.png); 
+    background-position: center;
+    background-size: 100%;   
+}
+
+li.listcentrar{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 32em;
+    padding: 5px 0em;
+}
+
+li.listcentrar::before{ 
+    content: "■";
+    margin-right: 2em;
+} /* como me gusta copiar cosas de mis otros documentos haceiendo ver que he hecho mas de lo que realmente he hecho 😊*/
+
+
+.green{
+    color:greenyellow; /* green */
+    text-shadow: 2px 2px black; /*pa q se vea mejor te amo yecozu */
+}
+
+img ~ p{ /* primera vez que uso esto en todo el html dios deme la salvacion */
+ padding: 40px;
+ color: greenyellow;
+ text-shadow: 2px 2px black; /*pa q se vea mejor te amo yecozu */
+}
+
+.espaciohorrible{ /* borra el espacio horrible */
+    margin-top: -70px;
+}

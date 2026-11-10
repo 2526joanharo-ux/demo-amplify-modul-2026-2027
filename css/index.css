@@ -1,0 +1,46 @@
+
+/* It goes in the square hole shit (are you fucking retarded) */
+
+.squarehole {
+    opacity: 85%; 
+    width: 100em;
+    background-color: #ffc5ff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 100px;
+    margin: 2em;
+    margin-top: 0em;
+    text-align: center;
+    border-image: url(/imagenes/index/bordermenu.png) 42 / 42px round;
+    border-width: 3.5px;
+    flex-direction: row;
+    
+}
+
+.squarehole li {        
+    list-style-position: inside;
+    text-align: left;
+    margin-top: 0em;
+    
+}
+.squarehole img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+h5 {
+    margin-top: -5px; /* pegate un tiro */ /* de nada windows espero que te guste mi arte */
+    margin-bottom: -5px;
+    text-align: left;
+    margin-left: 8%;
+}
+
+/* Extra shit (La mayoria de esto son pruebas anyway asique se puede borrar mas tarde) */
+
+
+.paragrafo{
+    background-color: white;
+    color:black;
+    opacity: 80%; /* Useless ahh blud */
+}

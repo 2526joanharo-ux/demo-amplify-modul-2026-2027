@@ -1,0 +1,139 @@
+
+
+html {
+  /*display: flex;*/
+  /* justify-content: center; */
+  /* align-items: center; */ 
+  height: 100%;
+  width: 100%;
+  background-image: url(../imagenes/formulari/background.png);
+  background-position: center;
+  background-size: 100%;
+}
+
+h1, h2{
+  color: lightblue; 
+}
+
+button {
+    background-color: #898f95;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.formulari {
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    opacity: 90%;
+    border-image: url("/imagenes/formulari/borderformulari.png") 60/30px round;
+    border-image-outset: 1em;
+}
+
+input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+}
+
+input, textarea{
+  max-width: 100%;
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #803868;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+select {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 6ps auto 12px;
+  padding: 12px;
+  border: 1px solid #803868;
+  border-radius: 4px;
+  resize: vertical;
+  background-color: white;
+  box-sizing: border-box;
+}
+fieldset{
+  width: 80%;
+  margin-left: 10%;
+  background-color: #C95E90;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;  
+  margin-bottom:8px;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  /*
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  */
+}
+
+input[type=submit]:hover {
+  background-color: #882858;
+}
+
+input[type=radio] {
+  width: 15px;
+  height: 15px;
+}
+
+.botoEnrere{
+  border-color: lightblue;
+  background-color: white;
+  color: #882858;
+  transition: all 0.25s ease
+}
+
+.botoEnrere:hover{
+  background-color: #882858;
+  color: white;
+}
+
+.margenh1{
+  margin-top: 50px;
+}
+
+.margenboton{
+  margin-bottom: 305px;
+}
+/* NOOOOO */
+
+/* Formulari enviat shit */
+
+.bigCube{
+    text-align: center;
+    border-radius: 2.5%;
+    background-color: gray;
+    height: 20rem;
+    width: 30%;
+    margin: 100px auto;
+    flex-wrap: wrap;
+    gap: 100px;
+    overflow: hidden;
+    align-items: center;
+    opacity: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3)
+}
